@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react';
 
-const FAQItem = ({question, answer}) =>{
+const FAQItem = ({question, answer}:any) =>{
     const [isOpen, setIsOpen] = useState(false);
 
     return(
