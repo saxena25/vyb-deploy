@@ -1,6 +1,6 @@
 import Image from "next/image";
 import indiaGate from "@/assets/indiaGate.jpeg"
-import { Link } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function Products() {
     return ( 
@@ -31,12 +31,12 @@ function Products() {
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                             <Link
-                                href="#"
+                                to="#"
                                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                             >
                                 Rs. 349
                             </Link>
-                            <Link href="#" style={{backgroundColor: "#154020"}} className="text-sm font-semibold leading-6 text-white px-3.5 py-2.5 rounded-md">
+                            <Link to="#" style={{backgroundColor: "#154020"}} className="text-sm font-semibold leading-6 text-white px-3.5 py-2.5 rounded-md">
                                 More <span aria-hidden="true">→</span>
                             </Link>
                         </div>
