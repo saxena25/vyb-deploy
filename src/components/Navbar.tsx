@@ -1,8 +1,6 @@
 'use client'//when we have use react hooks we have add use client
 import React, { useState } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { useRouter } from "next/router";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import { Menu, MenuItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { FiSearch } from "react-icons/fi";
